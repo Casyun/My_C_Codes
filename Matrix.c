@@ -51,7 +51,7 @@ int main() {
     bool generating[WIDTH] = {false}; // 记录每一列是否正在生成新数字
 
     for (int j = 0; j < WIDTH; j++) {
-        numDigits[j] = rand() % 6 + 5; // 生成5到10之间的随机数字个数
+        numDigits[j] = rand() % 8 + 3; // 生成3到10之间的随机数字个数
     }
 
     printf("Press any key to start...\n");
